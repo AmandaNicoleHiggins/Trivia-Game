@@ -1,0 +1,32 @@
+
+body {
+    background-image: url('../images/ocean.jpg');
+    background-size: 1500px;
+
+}
+
+#container {
+    padding-top: 75px;
+    height: 100%;
+    width: 75%;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        padding: 40px;
+        background: rgb(00, 0, 0, 0.5);
+        border: 2px solid darkkhaki;
+        color: #ffffff;
+    }
+
+    #start, #next, #restart {
+        margin-top: 5%;
+        background-color: darkkhaki;
+        border: white solid 1px;
+        color: black;
+    }
+
+    h2 {
+        color: darkkhaki;
+    }
+    
+    }

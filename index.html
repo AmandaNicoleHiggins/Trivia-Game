@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sea Turtles</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <h1>Do you think you know Sea Turtles?</h1>
+        <br>
+        <div id="instructions">Take the quiz to see if you are a sea turtle expert!<br><br>
+            <img src="assets/images/giphy-7.gif">
+        </div>
+        <!-- Timer  -->
+        <div id="timer">00:30</div>
+
+        <button id="start">Start</button>
+
+        <div id="gif"></div>
+        <h3 id="question"></h3>
+        <br>
+        <div id="choices">
+            <p id="choice1"></p>
+            <p id="choice2"></p>
+            <p id="choice3"></p>
+            <p id="choice4"></p>
+        </div>
+
+        <!--hidden in js on start-->
+        <div id="answer">
+            <h4 id="result"></h4>
+            <p id="resultDescription"></p>
+            <button id="next">Next</button>
+        </div>
+
+        <!--hidden in js on start-->
+        <div id="gameOver">
+            <h2>Game Over</h2>
+            <h4>Are you a sea turtle expert?</h4>
+            <p id="right"></p>
+            <p id="wrong"></p>
+            <button id="playAgain">Play Again</button>
+
+        </div>
+    </div>
+
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
