@@ -59,3 +59,10 @@ var quizItems = [
       ]
   },
 ];
+
+// Hide all but start button
+$("#question").hide();
+$("#timer").hide();
+$("#choices").hide();
+$("#next").hide();
+$("#gameOver").hide();
