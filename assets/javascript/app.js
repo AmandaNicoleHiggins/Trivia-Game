@@ -227,7 +227,7 @@ function nextQuestion() {
 // Start button
 $("#start").click(function () {
     // Set timer
-    time = 5;
+    time = 30;
      //Start timer
      start();
      count();
